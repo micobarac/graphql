@@ -1,0 +1,18 @@
+enum Animal {
+    DOG
+    CAT
+    BADGER
+    MAMMOTH
+}
+
+type Pet {
+    id: Long!
+    type: Animal!
+    name: String!
+    age: Int!
+}
+
+extend type Query {
+    findAllPets: [Pet]!
+    countPets: Long!
+}

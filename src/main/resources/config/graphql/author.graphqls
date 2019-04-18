@@ -1,0 +1,20 @@
+type Author {
+    id: Long!
+    firstName: String!
+    lastName: String!
+    books: [Book]!
+}
+
+input CreateAuthorInput {
+    firstName: String!
+    lastName: String!
+}
+
+extend type Query {
+    findAllAuthors: [Author]!
+    countAuthors: Long!
+}
+
+extend type Mutation {
+    newAuthor(input: CreateAuthorInput!): Author!
+}

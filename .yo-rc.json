@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.acme.graphql"
+    },
+    "jhipsterVersion": "5.7.2",
+    "applicationType": "monolith",
+    "baseName": "graphql",
+    "packageName": "com.acme.graphql",
+    "packageFolder": "com/acme/graphql",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YTdhYTkyYzNlYTFjODlkODlkNjAyOGU0MWM3MDEzZDRiOGE2NjQzNmY3ZGRjOTdhZGY4YjIwNGExOGUyYTM5NmNjNjkyNjVmNjIwYTVlMmUzYTM2NTVjNTY2ZmQ0ZTdmZmRjNjk2NDU2M2ZmOTIzMTQxYzYxY2U3ODNiZTFjODY=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
